@@ -1,6 +1,6 @@
 # RekognitionOps for Arm Dynamics Co.
 
-Automated image classification system powered by **Amazon Rekognition** and **GitHub Actions**. Images added to this repository are automatically analyzed, labeled, and stored in **DynamoDB** — no manual tagging required.
+Automated image classification system powered by **Amazon Rekognition** and **GitHub Actions**. Images added to this repository are automatically analyzed, labeled, and stored in **DynamoDB**  no manual tagging required.
 
 ---
 
