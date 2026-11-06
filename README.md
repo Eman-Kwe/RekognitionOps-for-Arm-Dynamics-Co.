@@ -8,7 +8,7 @@ Automated image classification system powered by **Amazon Rekognition** and **Gi
 
 | Without This System | With This System |
 |---|---|
-| Manual image tagging — hours per batch | Automatic tagging — seconds per image |
+| Manual image tagging - hours per batch | Automatic tagging - seconds per image |
 | Inconsistent labels across teams | Standardized AI-generated labels |
 | No content moderation | Automatic classification and filtering |
 | Hard to search image content | Queryable metadata stored in DynamoDB |
@@ -55,7 +55,7 @@ Lambda calls Amazon Rekognition
 Lambda saves labels to DynamoDB
 ```
 
-### Phase 3 — Complex (Infrastructure-as-Code)
+### Phase 3 - Complex (Infrastructure-as-Code)
 ```
 Infrastructure defined in CloudFormation / Terraform
               ↓
@@ -128,7 +128,7 @@ RekognitionOps-for-Armah-Dynamics-Co/
 
 ## Quick Start
 
-### 1 — Add an Image
+### 1 - Add an Image
 
 ```bash
 git checkout -b feature/new-image
@@ -137,7 +137,7 @@ git commit -m "Add image for classification"
 git push origin feature/new-image
 ```
 
-### 2 — Open a Pull Request
+### 2 - Open a Pull Request
 
 - Go to GitHub → open a Pull Request targeting `main`
 - The **Analyze Images (PR - Beta)** workflow triggers automatically
@@ -226,8 +226,8 @@ aws dynamodb scan --table-name beta_results --region us-east-1
 - Analysis is fully decoupled from the CI/CD pipeline
 
 **Files:**
-- `lambda/beta/handler.py` — Lambda for beta environment
-- `lambda/prod/handler.py` — Lambda for prod environment
+- `lambda/beta/handler.py` - Lambda for beta environment
+- `lambda/prod/handler.py` - Lambda for prod environment
 - `.github/workflows/on_pull_request_advanced.yml`
 - `.github/workflows/on_merge_advanced.yml`
 
