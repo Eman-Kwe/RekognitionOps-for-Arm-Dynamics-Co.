@@ -29,7 +29,7 @@ This project is built in three progressive phases. Each phase builds on the prev
 
 ## Architecture
 
-### Phase 1 — Foundational
+### Phase 1 - Foundational
 ```
 Developer adds image to images/ folder
               ↓
@@ -42,7 +42,7 @@ Amazon Rekognition analyzes the image
 Labels saved directly to DynamoDB
 ```
 
-### Phase 2 — Advanced (Event-Driven)
+### Phase 2 - Advanced (Event-Driven)
 ```
 Developer adds image to images/ folder
               ↓
